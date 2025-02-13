@@ -1,0 +1,11 @@
+build.gradle
+repositories {
+    mavenCentral()  
+    maven {         
+        url = uri("https://github.com/spiralgang/chaquopy-Sensable-SHH-PROOT-Alternative/")
+    }
+    mavenLocal()    
+    flatDir {       
+        dirs "libs"
+    }
+}
